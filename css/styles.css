@@ -1,0 +1,168 @@
+/* Resources and facts */
+
+/*
+
+100% = 16px 
+1em = 16px
+
+Use this more often for font-size
+rem - root 'em'
+
+Use % to get values work more dynamically
+
+// Use these families
+font-family: 'Raleway', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat";
+}
+
+h1{
+	font-family: "Montserrat";
+	font-size: 50px;
+	font-weight: bold;
+}
+
+h2{
+	margin-top: 3%;
+	font-family: "Montserrat";
+}
+
+/* Dotted <hr> */
+hr{
+	border: dotted #E0E0E0 5px;
+	border-bottom: none;
+	width: 5%;
+	margin: 70px auto; 
+}
+
+.name-row{padding: 300px 0 300px 0;}
+
+.name-container{
+	text-align: center;
+}
+
+.title-img{
+	position: relative;
+	opacity: 0.65;
+	background-image: url('../images/postcards.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: 100%;
+}
+
+.profile-img{
+	margin-top: 5%;
+	text-align: center;
+}
+
+.bio{color: black;}
+
+.skill-container{justify-content: center;text-align: center;}
+
+.row-center{margin-top: 15px;justify-content: center;}
+#proficiency{font-size: 20px;}
+
+.design-skill{
+	text-align: center; 
+	margin-top: 20px;
+}
+
+.design-skill-row{
+	margin-top: 25px;
+	justify-content: center;
+}
+
+.design-img-row{margin: 0 15% 0 15%;justify-content: center;}
+
+.project-row{
+	margin:0 20% 0 20%;
+	justify-content: center;
+	padding: 12px;
+}
+
+.prj-img{margin-top: 35px;}
+
+.about-proj{
+	width: 50%;
+	line-height: 2;
+}
+
+.instagram-link{color: #11999E;}
+.instagram-link:hover{font-weight: bold;}
+
+/* Contact me CRYSTAL button */
+.btn{
+	color: #009688;
+	text-decoration: none;
+	margin: 10px 10px;
+	padding: 10px;
+	border-radius: 4px;
+	border: solid #1DE9B6; 
+	transition: box-shadow: .2s;
+}
+
+.btn:hover{
+	cursor: pointer;
+	background-color: white;
+	font-weight: bold;
+	color: black;
+	box-shadow: 0 1px 10px rgba(40,40,40,.2);
+}
+
+/* Contact me */
+.contact-me{
+	width: 55%;
+	margin: 40px auto 60px;
+}
+
+.contact-me-row{
+	text-align: center;
+	justify-content: center;
+	margin: 0 25% 0 25%;
+}
+
+.bottom-container{
+	text-align: center;
+	background-color: #B2DFDB;
+	padding: 50px 0 20px; 
+}
+
+.copyright{
+	color: #FAFAFA;
+	padding: 10px;
+	font-size: 13px;
+}
+
+.bottom-container .footer-link{font-weight: bold;color: #11999E;margin: 0 25px 0 25px;text-decoration: none;}
+.bottom-container .footer-link:hover{color: white;}
+
+/* Alert 'X' button */
+.alert{
+	text-align: center;
+	box-sizing: border-box;
+	color: white;
+	padding-top: 30px;
+	width: 100%;
+	background-color: #90CAF9;
+}
+
+.closebtn{
+	padding: 0px;
+	float: right;
+	font-size: 30px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.closebtn:hover{
+	color: #000;
+}
