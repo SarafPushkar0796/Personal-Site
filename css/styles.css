@@ -172,6 +172,11 @@ hr{
 	color: black;
 }
 
+#technical-certificate{
+	justify-content: center;
+	text-align: center;
+}
+
 .carousel-item{
 	padding: 3% 3%;
 	margin-left: 1%;
