@@ -177,10 +177,7 @@ hr{
 	text-align: center;
 }
 
-.carousel-item{
-	padding: 3% 3%;
-	margin-left: 1%;
-}
+.carousel-item{padding: 3% 3%;}
 
 /* Custom carousel next and previous buttons */
 .carousel-control-prev-icon,
